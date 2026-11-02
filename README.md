@@ -6,17 +6,15 @@ Projet réalisé en équipe avec Scrum (formation DWWM, jalon 5), en HTML et Tai
 
 ## Liens
 
-- Site en ligne : https://PSEUDO.github.io/jardin-partage/ (à compléter après la première publication)
-- Tableau GitHub Projects : (à compléter)
+- Site en ligne : https://florian-broudoux.github.io/jardin-partage/
+- Tableau GitHub Projects : https://github.com/users/florian-broudoux/projects/1/views/1?layout=table
 - Version livrée : `v1.0.0` (à compléter à la livraison)
 
 ## L'équipe
 
-| Membre | Compte GitHub | Responsabilités                     |
-| ------ | ------------- | ----------------------------------- |
-| Prénom | @pseudo       | Developer, Scrum Master du sprint 1 |
-| Prénom | @pseudo       | Developer, Scrum Master du sprint 2 |
-| Prénom | @pseudo       | Product Owner                       |
+| Membre  | Compte GitHub     | Responsabilités                          |
+| ------- | ----------------- | ---------------------------------------- |
+| Florian | @florian-broudoux | Developer, Scrum Master du sprint 1 et 2 |
 
 ## Installation
 
@@ -93,9 +91,11 @@ L'équipe peut compléter cette définition : toute modification est décidée e
 
 ## Événements des sprints
 
-| Sprint   | Planification | Daily écrit (heure limite)                | Revue avec le Product Owner | Rétrospective |
-| -------- | ------------- | ----------------------------------------- | --------------------------- | ------------- |
-| Sprint 1 | (date, heure) | avant (heure), issue « Sprint 1 – suivi » | (date, heure)               | (date, heure) |
-| Sprint 2 | (date, heure) | avant (heure), issue « Sprint 2 – suivi » | (date, heure)               | (date, heure) |
+| Sprint   | Planification | Daily écrit (heure limite)              | Revue avec le Product Owner | Rétrospective |
+| -------- | ------------- | --------------------------------------- | --------------------------- | ------------- |
+| Sprint 1 | 03/11 10h     | avant 11h15, issue « Sprint 1 – suivi » | 03/11 12h15                 | 03/11 12h35   |
+| Sprint 2 | 04/11 9h      | avant 10h15, issue « Sprint 2 – suivi » | 04/11 11h15                 | 04/11 11h35   |
+
+REPLI EN SOLO
 
 Après chaque revue, le Scrum Master publie le **rapport de sprint** sur l'issue de suivi, avec le modèle `docs/rapport-de-sprint.md`.
