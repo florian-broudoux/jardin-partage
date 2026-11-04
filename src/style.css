@@ -7,17 +7,17 @@
  * Vérifiez chaque contraste avec https://webaim.org/resources/contrastchecker/
  */
 @theme {
-    --color-primaire: #334155;
-    --color-primaire-fonce: #1e293b;
-    --color-secondaire: #e2e8f0;
-    --color-fond: #f8fafc;
+    --color-primaire: #2f6b45;
+    --color-primaire-fonce: #214b32;
+    --color-secondaire: #dce8d8;
+    --color-fond: #f7f8f2;
     --color-surface: #ffffff;
-    --color-texte: #0f172a;
-    --color-texte-secondaire: #475569;
-    --color-bordure: #64748b;
-    --color-succes: #15803d;
-    --color-erreur: #b91c1c;
+    --color-texte: #1f2a22;
+    --color-texte-secondaire: #526157;
+    --color-bordure: #7f9082;
+    --color-succes: #276749;
+    --color-erreur: #b42318;
 
-    --font-titre: system-ui, 'Segoe UI', Roboto, sans-serif;
-    --font-texte: system-ui, 'Segoe UI', Roboto, sans-serif;
+    --font-titre: 'Noto Serif', serif;
+    --font-texte: 'Inter', sans-serif;
 }
