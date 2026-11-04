@@ -16,7 +16,7 @@
         />
         <link rel="stylesheet" href="./src/style.css" />
     </head>
-    <body class="bg-fond text-texte font-texte">
+    <body class="bg-fond text-texte font-texte leading-relaxed text-lg">
         <!-- US-01 : en-tête et navigation communs (les mêmes sur les 6 pages) -->
         <header
             class="flex flex-col items-center gap-8 bg-primaire p-4 lg:flex-row lg:justify-between lg:px-8"
@@ -48,10 +48,74 @@
             </nav>
         </header>
 
-        <main id="contenu">
+        <main id="contenu" class="max-w-6xl mx-auto">
             <!-- US-02 : page d'accueil -->
-            <h1>Le Jardin partagé des Tilleuls</h1>
-            <p>Page en préparation.</p>
+            <div class="flex flex-col gap-4 p-4 items-center">
+                <h1 class="font-titre text-4xl lg:text-5xl">Le Jardin partagé des Tilleuls</h1>
+                <p class="text-center max-w-xl lg:max-w-4xl">
+                    Depuis 2019, le Jardin partagé des Tilleuls est un lieu de rencontre, de partage
+                    et de nature au cœur du quartier. Que vous souhaitiez cultiver vos propres
+                    légumes, participer à des ateliers ou simplement contribuer à une démarche
+                    écologique, notre jardin vous ouvre ses portes. Petits et grands, débutants ou
+                    passionnés, chacun y a sa place !
+                </p>
+            </div>
+
+            <section class="grid grid-cols-1 gap-8 mt-8 justify-items-center lg:grid-cols-3">
+                <article
+                    class="flex flex-col items-center gap-6 max-w-sm border bg-surface border-bordure rounded-2xl px-4 py-8"
+                >
+                    <h2 class="font-titre text-3xl text-center">Cultivez votre parcelle</h2>
+                    <p class="mt-auto text-center">
+                        Faites pousser vos propres fruits, légumes et aromates dans un espace de
+                        jardinage individuel ou adapté. Rejoignez notre communauté de jardiniers et
+                        profitez des plaisirs du jardinage.
+                    </p>
+                </article>
+
+                <article
+                    class="flex flex-col items-center gap-6 max-w-sm border bg-surface border-bordure rounded-2xl px-4 py-8"
+                >
+                    <h2 class="font-titre text-3xl text-center">Participez aux ateliers</h2>
+                    <p class="mt-auto text-center">
+                        Retrouvez nos bénévoles chaque samedi pour apprendre, échanger et partager
+                        des conseils autour du jardinage. Des activités conviviales ouvertes à tous,
+                        petits et grands !
+                    </p>
+                </article>
+
+                <article
+                    class="flex flex-col items-center gap-6 max-w-sm border bg-surface border-bordure rounded-2xl px-4 py-8"
+                >
+                    <h2 class="font-titre text-3xl text-center">Apportez vos épluchures</h2>
+                    <p class="mt-auto text-center">
+                        Donnez une seconde vie à vos déchets alimentaires grâce à notre compost
+                        collectif. Épluchures et déchets végétaux deviennent un précieux engrais
+                        naturel pour nos plantations.
+                    </p>
+                </article>
+            </section>
+
+            <section class="grid grid-cols-1 gap-4 justify-items-center mt-8 mb-8 lg:grid-cols-2">
+                <div>
+                    <h2 class="font-titre text-3xl text-center">Nos horaires</h2>
+                    <div class="flex flex-col gap-2 items-baseline py-8">
+                        <p>Lundi : Fermé</p>
+                        <p>Mardi : 14h - 17h - Accès au jardin</p>
+                        <p>Mercredi : 14h - 18h - Accueil des familles</p>
+                        <p>Jeudi : Fermé</p>
+                        <p>Vendredi : 14h - 17h - Accès au jardin</p>
+                        <p>Samedi : 10h - 12h - Ateliers et permanence</p>
+                        <p>Dimanche : 10h - 12h - Accès libre au jardin</p>
+                    </div>
+                </div>
+
+                <a
+                    href="adhesion.html"
+                    class="block py-8 px-16 bg-primaire border border-bordure text-surface rounded-xl text-2xl lg: self-center hover:bg-primaire-fonce focus-visible:outline-4 focus-visible:outline-primaire focus-visible: outline-offset-8"
+                    >Adhérer à l'association</a
+                >
+            </section>
         </main>
 
         <!-- US-07 : pied de page (le même sur les 6 pages) -->
