@@ -8,7 +8,7 @@ Projet réalisé en équipe avec Scrum (formation DWWM, jalon 5), en HTML et Tai
 
 - Site en ligne : https://florian-broudoux.github.io/jardin-partage/
 - Tableau GitHub Projects : https://github.com/users/florian-broudoux/projects/1/views/1?layout=table
-- Version livrée : `v1.0.0` (à compléter à la livraison)
+- Version livrée : v1.0.0
 
 ## L'équipe
 
